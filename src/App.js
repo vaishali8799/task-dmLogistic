@@ -12,7 +12,7 @@ function App() {
     
      <Mainnav></Mainnav>
      <Home></Home>
-     
+    
     </div>
   );
 }

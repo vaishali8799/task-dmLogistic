@@ -7,6 +7,7 @@ import google from '../assets/google.png'
 
 function Home() {
     return (
+      
         <Container className="mt-5">
   <Row>
     <Col sm={8} className="m-auto text-left"><h2 className="mb-4">Your credit, sorted.</h2>
@@ -22,7 +23,7 @@ function Home() {
       <Button className="form-btn" variant="light">CHECK MY SCORE</Button>
     </InputGroup.Append>
   </InputGroup></Col></Col>
-    <Col sm={4} className=" m-auto"><img src={image}style={{position:'relative'}} width="390" height="370"alt="score" className="mt-3"/>
+    <Col sm={4} className=" m-auto"><img src={image}style={{position:'relative'}} width="450" height="430"alt="score" className="mt-3"/>
     
     
     <div className="inner-circle">
