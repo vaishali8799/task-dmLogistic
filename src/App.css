@@ -90,10 +90,7 @@ text-align: center;
 }
 @media (max-width:568px){
   .inner-circle{
-    border: 5px solid rgb(48, 13, 247);
-    border-radius: 50%;
-    width: 350px;
-    height: 350px;
+   
    position: absolute;
     top:50%;
     left: 50%;
@@ -102,26 +99,10 @@ text-align: center;
     
   }
 }
-@media (max-width:823px){
-  .inner-circle{
-    border: 5px solid rgb(48, 13, 247);
-    border-radius: 50%;
-    width: 350px;
-    height: 350px;
-   position: absolute;
-    top:50%;
-    left: 50%;
-    margin: -170px 0px 0px -130px;
-    
-    
-  }
-}
+
 @media (min-width:823px){
   .inner-circle{
-    border: 5px solid rgb(48, 13, 247);
-    border-radius: 50%;
-    width: 350px;
-    height: 350px;
+    
    position: absolute;
     top:50%;
     left: 50%;
@@ -132,11 +113,7 @@ text-align: center;
 }
 @media (min-width:1024px){
   .inner-circle{
-    border: 5px solid rgb(48, 13, 247);
-    border-radius: 50%;
-    width: 350px;
-    height: 350px;
-   position: absolute;
+    
     top:50%;
     left: 50%;
     margin: -170px 0px 0px -130px;
