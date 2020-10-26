@@ -22,18 +22,20 @@ function Home() {
       <Button className="form-btn" variant="light">CHECK MY SCORE</Button>
     </InputGroup.Append>
   </InputGroup></Col></Col>
-    <Col sm={4} className=" m-auto"style={{position:'relative'}}><img src={image} width="400" height="370"/>
+    <Col sm={4} className=" m-auto"><img src={image}style={{position:'relative'}} width="390" height="370"alt="score" className="mt-3"/>
     
-    <div className="circle">
+    
     <div className="inner-circle">
-        <h5 className="text-center">Get your</h5>
+      <div>
+        <h5 className="text-center mt-4">Get your</h5>
         <h3 className="text-center">AECB Credit Score</h3>
         <h1 className="text-center"><strong>720</strong></h1>
         <h5 className="text-center">Out of 900</h5>
     </div>
     </div>
-<div className="footer"><img src={google} /> 
-       <img src={apple} /></div>
+    
+<div className="footer"><img src={google} alt="play-store" /> 
+       <img src={apple} alt="apple"/></div>
 
 
     </Col>
