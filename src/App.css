@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+body{
+  background-image: url('./assets/bg.png');
+  opacity: 1;
+
+}
+.navbar{
+  color: white;
+}
+.nav-btn{
+  border-radius:20px;
+  border:2px solid white;
+  color: white;
+  font-size:12px;
+  margin: 20px;
+  width: 100px;
+  text-align: center;
+  display: inline-block;
+  background-color:transparent;
+}
+.nav-btn:focus{
+  background-color: white;
+  color: black !important;
+}
+.nav-link{
+color: white !important;
+margin: 20px;
+}
+.text-left{
+  line-height: 0.5rem;
+}
+.text-left h2{
+  font-size: 40px;
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 3px;
+
+}
+.text-left h6{
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 3px;
+  font-size: 30px;
+  
+}
+.input-form{
+  
+background-color:transparent !important ;
+font-family: 'Ubuntu', sans-serif;
+text-align: center;
+
+}
+.input-form::placeholder{
+  color: white !important;
+}
+.form-btn{
+  width: 220px;
+  
+}
+.circle{
+  border: 5px solid rgb(48, 13, 247);
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top:12px;
+  right:2px;
+  
+  
+  
+}
+.inner-circle{
+  width: 350px;
+  height: 350px;
+
+  position: absolute;
+  right: 2px;
+  top:42px;
+  
+  
+}
+.inner-circle h1{
+  font-size: 110px;
+}
+.footer{
+  
+  position: fixed;
+  bottom:20px;
+  right: 40px;
+}
+.footer img{
+  margin-right: 20px;
+}
